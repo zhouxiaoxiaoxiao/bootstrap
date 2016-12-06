@@ -1,0 +1,60 @@
+#table1 tbody tr td {
+  padding: 5px;
+  font-size: 18px;
+  color: #888;
+}
+#table1 tbody tr .text {
+  color: #00f;
+  padding-left: 30px;
+}
+#table2 tbody tr td {
+  padding: 5px;
+  font-size: 18px;
+  color: #888;
+}
+#table2 tbody tr .text {
+  color: #00f;
+  padding-left: 30px;
+}
+#table3,
+#table4 {
+  margin: 0;
+}
+#table3 tr td,
+#table4 tr td {
+  padding: 0;
+  border: 0;
+  font-size: 18px;
+  color: #888;
+}
+#table3 tr span,
+#table4 tr span {
+  color: #00f;
+  padding-left: 30px;
+}
+#table5 .one > td {
+  border-top: 0;
+  border-bottom: 2px solid #cdcdcd;
+}
+#table5 tr td {
+  font-weight: bold;
+  font-size: 18px;
+}
+#table6 .one > td {
+  border-top: 0;
+  border-bottom: 2px solid #cdcdcd;
+  font-weight: bold;
+  font-size: 18px;
+}
+#table6 tr td {
+  font-size: 18px;
+}
+#table7 .one > td {
+  border-top: 0;
+  border-bottom: 2px solid #cdcdcd;
+  font-weight: bold;
+  font-size: 18px;
+}
+#table7 tr td {
+  font-size: 18px;
+}

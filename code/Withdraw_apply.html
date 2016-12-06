@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+	<!--    兼容ie ，最新的版本运行-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--设置视口-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link href="bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/Withdraw_apply.css" rel="stylesheet">
+  </head>
+  <body>
+  <div class="nav navbar-default navbar-inverse">
+  		<div class="container">
+  			<div class='navbar-header'>
+  				<a href="#" id="phone" class="navbar-brand">
+	  				<span class="glyphicon glyphicon-phone-alt"></span>
+	  				<span>018-34539581</span>
+				</a>
+				<button type="button" class='navbar-toggle collapsed' data-toggle="collapse" data-target="#xx">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+			  </button>
+			</div>
+  		<div class="collapse navbar-collapse" id="xx">
+  			<ul class="nav navbar-nav navbar-right " id="ul">
+	  			<li><a href="#">首页</a></li>
+	  			<li><a href="#">xiaoqiang</a></li>
+	  			<li><a href="#">账户充值</a></li>
+	  			<li><a href="#">注销</a></li>
+	  			<li><a href="#">帮助</a></li>
+	  		</ul>
+  		</div>
+  	</div>
+  </div>
+  	<!--第二个导航栏开始；-->
+    <div class="nav navbar-default">
+    	<div class="container" style="height:70px;">
+    		<div class="navbar-header">
+	    		<a href="#" class="navbar-brand">
+	    			<img src="../bootstrap/day1/images/logo.png">
+	    		</a>
+	    		<p style='position:absolute;top:66px;left:240px;font-size:24px;color:#00f;line-height:40px;font-weight:bold;'>账户提现</p>
+	    	</div>
+    	</div>
+    </div>
+	<!--中间内容部分开始-->
+	<div class="container">
+		<div class="alert alert-success" role="alert">
+			<h2>账户提现</h2>
+			<p>1. 本平台工作日会处理当天 17:00 之前的提款申请</p>
+			<p>2. 为了确保银行转账成功，请您确认银行账号信息的 正确性。</p>
+			<p>3. 单笔提现范围-普通用户500.00 元 ~ 500000.00 元</p>
+			<p>4. 单笔提现范围-VIP用户500.00 元 ~ 500000.00 元。</p>
+			<p>5. 目前提现服务费：1万元(含) 之内：2.00 元/笔；1万元（以上） ：5.00 元/笔。</p>
+			<p>6. 为避免信用卡套现，故充值15日内未投资提现按提现金额的0.4%收取提现费用。</p>
+			<p>7. 本次可提现 = 可用余额 - 净值保证金 - 不可提现金额 + 投标冻结 - 最高服务费 - 返还体验金</p>
+		</div>
+		<div class="row">
+			<div class="col-sm-4">
+			总金额：<span>1000元</span>
+			</div>
+			<div class="col-sm-4">
+				可提现金：<span>8000元</span>
+			</div>
+			<div class="col-sm-4">
+				冻结金额：<span>2000元</span>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<!--<div class='col-sm-6'>-->
+			<form class="form-horizontal" style="margin:20px 0;">
+				<div class="form-group">
+					<label class="col-sm-3 control-label">银行</label>
+					<div class='col-sm-3 input-group'>
+						<select class="form-control">
+						  <option>工商银行</option>
+						  <option>农业银行</option>
+						  <option>建设银行</option>
+						  <option>招商银行</option>
+						  <option>中国银行</option>
+						</select>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-3 control-label">银行卡号</label>
+					<div class="col-sm-3 input-group">
+						<input type='text' class="form-control">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-3 control-label">户主名称</label>
+					<div class="col-sm-3 input-group">
+						<input type='text' class="form-control">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-3 control-label">提现金额</label>
+					<div class="col-sm-3 input-group">
+						<input type='text' class="form-control">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-3 control-label">通知电话</label>
+					<div class="col-sm-3 input-group">
+						<input type='text' class="form-control">
+					</div>
+				</div>
+				<div style='margin:0 30%;'>
+					<button class='btn btn-primary' type='button'>确认提交</button>
+				</div>
+
+			</form>
+		<!--</div>-->
+	</div>
+		<!--footer开始-->
+		<div style="width:100%">
+		<footer>
+			<div class="p col-md-6">
+				<p>专业Java培训、PHP培训、UI培训、iOS培训、高级Web前端培训机构</p>
+				<p>版权所有： 2006-2015成都源代码教育咨询有限公司</p>
+				<p>地  址： 成都市高新区府城大道西段399号天府新谷1号楼620-625</p>
+				<p>电  话： 028-86261949  / 400-808-6840  邮箱： yuandaima@itsource.cn</p>
+				<p><a href="#">蜀ICP备14030149号-1  蜀公网安备510114990541</a></p>
+				<p></p>
+			</div>
+			<div class="tecent col-md-3">
+				<p>官方微博</p>
+				<a href="#"><img src="../bootstrap/day1/images/sina.png"></a><br />
+				<a href="#"><img src="../bootstrap/day1/images/tecent.png"></a> 
+			</div>
+			<div class='last col-md-3'>
+				<p>官方微信</p>
+				<a href="#"><img src="images/wx.jpg"></a> 
+			</div>
+		</footer>
+		</div>
+  <!-- Bootstrap.js依赖jquery -->
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="jquery/jquery-2.1.0.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+   	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+
+   <script src="bootstrap/3.3.0/bootstrap.min.js"></script>
+</html>

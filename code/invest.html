@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+	<!--    兼容ie ，最新的版本运行-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--设置视口-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>invest</title>
+    <!-- Bootstrap -->
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link href="bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/invest.css" rel='stylesheet'>
+  </head>
+  <body>
+	<div class="nav navbar-default navbar-inverse">
+  	<div class="container">
+  		<div class='navbar-header'>
+  			<a href="#" id="phone" class="navbar-brand">
+  				<span class="glyphicon glyphicon-phone-alt"></span>
+  				<span>018-34539581</span>
+				</a>
+				<button type="button" class='navbar-toggle collapsed' data-toggle="collapse" data-target="#xx">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+			  </button>
+			</div>
+  		<div class="collapse navbar-collapse" id="xx">
+  			<ul class="nav navbar-nav navbar-right " id="ul">
+	  			<li><a href="#">首页</a></li>
+	  			<li><a href="#">小强</a></li>
+	  			<li><a href="#">赶快充值</a></li>
+	  			<li><a href="#">注销</a></li>
+	  			<li><a href="#">帮助</a></li>
+	  			<li><a href="#">联系客户</a></li>
+	  		</ul>
+  		</div>
+  		
+  	</div>
+  </div>
+  	<!--第二个导航栏开始；-->
+    <nav class="navbar navbar-default " id="nav2">
+    	<div class="container"> 
+    		<!--class="nav-header navbar-brand头部居中对齐,下面这种写法是正确的；不要使用绝对定位；不占高度；无法挤下来；-->
+    		<div class="navbar-header">
+    			<a href="" class="navbar-brand" style="margin-top:8px;">
+    				<img src="../bootstrap/day1/images/logo.png">
+    			</a>
+    		</div>
+    		<ul class='nav navbar-nav' >
+    		<li class="active"><a href="#">首页</a></li>
+  			<li><a href="#">小强</a></li>
+  			<li><a href="#">赶快充值</a></li>
+  			<li><a href="#">注销</a></li>
+  			<li><a href="#">帮助</a></li>
+  			<li><a href="#">联系客户</a></li>
+    	</ul>
+    	</div>
+    </nav>
+		<!--中间内容部分开始-->
+		<div class="container" id="contain">
+			<p style="font:20px/30px '微软雅黑';">投资列表</p>
+			<div class="row">
+				<span id="span">标的状态</span>
+				<div class="btn-group" role="group">
+					<button type="button" class="btn btn-default active">全部</button>
+					<button type="button" class="btn btn-default">招标中</button>
+					<button type="button" class="btn btn-default">还款中</button>
+				</div>
+			</div>
+			<table class="table">
+				<tr class="tr1">
+					<td>借款人</td>
+					<td>借款标题</td>
+					<td>年利率</td>
+					<td>金额</td>
+					<td>还款方式</td>
+					<td>进度</td>
+					<td>操作</td>
+				</tr>
+				<tr class="tr2">
+					<td>zx</td>
+					<td>借我200万度过难关</td>
+					<td>10.00%</td>
+					<td>2,000.00</td>
+					<td>按月分期付款</td>
+					<td>100.00%</td>
+					<td><button type='button' class="btn btn-danger">查看</button></td>
+				</tr>
+			</table>
+		</div>
+		<!--footer开始-->
+		<div style="width:100%">
+		<footer>
+			<div class="p col-md-6">
+				<p>专业Java培训、PHP培训、UI培训、iOS培训、高级Web前端培训机构</p>
+				<p>版权所有： 2006-2015成都源代码教育咨询有限公司</p>
+				<p>地  址： 成都市高新区府城大道西段399号天府新谷1号楼620-625</p>
+				<p>电  话： 028-86261949  / 400-808-6840  邮箱： yuandaima@itsource.cn</p>
+				<p><a href="#">蜀ICP备14030149号-1  蜀公网安备510114990541</a></p>
+				<p></p>
+			</div>
+			<div class="tecent col-md-3">
+				<p>官方微博</p>
+				<a href="#"><img src="../bootstrap/day1/images/sina.png"></a><br />
+				<a href="#"><img src="../bootstrap/day1/images/tecent.png"></a> 
+			</div>
+			<div class='last col-md-3'>
+				<p>官方微信</p>
+				<a href="#"><img src="images/wx.jpg"></a> 
+			</div>
+		</footer>
+		</div>
+  </body>
+  
+  <!-- Bootstrap.js依赖jquery -->
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="jquery/jquery-2.1.0.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+   	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+
+   <script src="bootstrap/3.3.0/bootstrap.min.js"></script>
+</html>

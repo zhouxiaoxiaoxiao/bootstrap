@@ -1,0 +1,44 @@
+#ul a {
+  color: #fff;
+}
+#ul a:hover {
+  color: #0000FF;
+  text-decoration: underline;
+}
+#phone > span {
+  color: #fff;
+  text-decoration: none;
+}
+#nav2 ul li a {
+  font-size: 20px;
+  line-height: 50px;
+}
+#nav2 ul li a:hover {
+  background: #CCCCCC;
+}
+footer {
+  width: 100%;
+  height: 300px;
+  background: #DCDCDC;
+}
+footer .p {
+  bottom: -48px;
+  left: 140px;
+}
+footer .tecent {
+  top: 50px;
+}
+footer .tecent img {
+  width: 40%;
+  height: 40%;
+}
+footer .last {
+  top: 50px;
+}
+footer .last img {
+  width: 40%;
+  height: 40%;
+}
+#footer {
+  color: #ff0;
+}
